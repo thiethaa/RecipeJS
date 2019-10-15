@@ -112,7 +112,9 @@ var image = document.getElementById('image');
 var intro = document.getElementById('intro');
 var main_ing = document.getElementById('main_ing');
 var main_ins = document.getElementById('main_ins');
+var btn_id = document.getElementById('btn_id');
 
+//create function button show/hide recipe-btn
 
 
 //create function select
@@ -129,6 +131,8 @@ function choosenItem(value){
         instruction.innerHTML = recipe[i].Instructions.join("<br>");
         image.src = recipe[i].imagePath;
         }
-    }
+    }if (value != " "){
+        btn_id.style.visibility= "visible";
+    } 
 };
 
