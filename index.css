@@ -1,0 +1,79 @@
+body{
+    background-color:#E99805;
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-color: #EBD175;
+}
+.col-lg{
+    background-color: #1F1D16;
+}
+
+.btn btn-primary{
+    margin-left: auto;
+}
+.nav-link{
+    font-size: 2em;
+    color:rgb(174, 129, 17);
+    font-weight: bold;
+}
+h1{
+    text-decoration: underline;
+    font-family: fantasy;
+    color:slategrey;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+   
+}
+.queto::first-letter {
+    font-size: 50px;
+
+}
+
+.pint::first-letter {
+    font-size: 200%;
+    color: rgb(11, 2, 20);
+    
+}
+.image_div{
+    width:500px;
+    height:250px;
+    object-fit:contain !important;
+    margin: 5px;
+    padding: 2px;
+    align-content: center;
+}
+.card1{
+    background-image: url(images/bg1.jpg);   
+}
+.card2{
+    background-image: url(images/bg2.jpg);    
+}
+.nav-link{
+    font-family:fantasy;
+    color: #F5B65D;
+} 
+.ing{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    color:#52524C;
+    font-weight: bold;
+}
+.ing2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+#description{
+    font-family: fantasy;
+    font-size: 1.2em;
+    color: #1F1D16;
+}
+.navbar{
+    color:white;
+}
