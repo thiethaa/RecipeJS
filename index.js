@@ -135,6 +135,7 @@ function choosenItem(value){
         btn_id.style.visibility= "visible";
     } else{
             btn_id.innerHTML = 'Show Less';
+            
     }
 };
 
