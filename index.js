@@ -133,6 +133,8 @@ function choosenItem(value){
         }
     }if (value != " "){
         btn_id.style.visibility= "visible";
-    } 
+    } else{
+            btn_id.innerHTML = 'Show Less';
+    }
 };
 
